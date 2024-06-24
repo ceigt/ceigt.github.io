@@ -9,17 +9,17 @@
 <meta name="keywords" content="">
 <meta name="description" content="Posts - Note&amp;Blog">
 <meta name="author" content="">
-<link rel="canonical" href="https://ceigt.github.io/posts/">
+<link rel="canonical" href="http://blog.openet.top/posts/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.fc220c15db4aef0318bbf30adc45d33d4d7c88deff3238b23eb255afdc472ca6.css" integrity="sha256-/CIMFdtK7wMYu/MK3EXTPU18iN7/MjiyPrJVr9xHLKY=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://ceigt.github.io/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://ceigt.github.io/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://ceigt.github.io/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://ceigt.github.io/apple-touch-icon.png">
-<link rel="mask-icon" href="https://ceigt.github.io/safari-pinned-tab.svg">
+<link rel="icon" href="http://blog.openet.top/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://blog.openet.top/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://blog.openet.top/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://blog.openet.top/apple-touch-icon.png">
+<link rel="mask-icon" href="http://blog.openet.top/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="https://ceigt.github.io/posts/index.xml">
-<link rel="alternate" hreflang="en" href="https://ceigt.github.io/posts/">
+<link rel="alternate" type="application/rss+xml" href="http://blog.openet.top/posts/index.xml">
+<link rel="alternate" hreflang="en" href="http://blog.openet.top/posts/">
 <noscript>
     <style>
         #theme-toggle,
@@ -62,7 +62,7 @@
 <meta property="og:title" content="Posts" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://ceigt.github.io/posts/" />
+<meta property="og:url" content="http://blog.openet.top/posts/" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Posts"/>
@@ -78,7 +78,7 @@
       "@type": "ListItem",
       "position":  1 ,
       "name": "Posts",
-      "item": "https://ceigt.github.io/posts/"
+      "item": "http://blog.openet.top/posts/"
     }
   ]
 }
@@ -100,7 +100,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://ceigt.github.io/" accesskey="h" title="Note&amp;Blog (Alt + H)">Note&amp;Blog</a>
+            <a href="http://blog.openet.top/" accesskey="h" title="Note&amp;Blog (Alt + H)">Note&amp;Blog</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -137,6 +137,24 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Ssh Keygen
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>生成密钥对 默认生成 2048 位 RSA 密钥
+ssh-keygen 生成 4096 位 RSA 密钥
+ssh-keygen -t rsa -b 4096 生成 521 位 ECDSA 密钥
+ssh-keygen -t ecdsa -b 521 私钥生成公钥
+ssh-keygen -y -f [private-key-path] &gt; [output-path] 比如，有一个文件名为 id_rsa 私钥，想用它生成 id_rsa.pub 公钥
+ssh-keygen -y -f id_rsa &gt; id_rsa.pub 选项说明
+-t 指定生成密钥的类型，默认 RSA -f 指定生成密钥的路径，默认 ~/.ssh/id_rsa（私钥 id_rsa，公钥 id_rsa.pub） -P 提供旧密码，空表示不需要密码（-P ‘’） -N 提供新密码，空表示不需要密码 (-N ‘’) -b 指定密钥长度（bits），默认是 2048 位 -C 提供一个新注释，比如邮箱 -y 读取 OpenSSH 格式私钥文件并将 OpenSSH 公钥输出到 std­out -q 安静模式 </p>
+  </div>
+  <footer class="entry-footer"><span title='2024-06-24 18:59:33 +0800 CST'>June 24, 2024</span></footer>
+  <a class="entry-link" aria-label="post link to Ssh Keygen" href="http://blog.openet.top/posts/ssh-keygen/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">Linux
     </h2>
   </header>
@@ -153,12 +171,12 @@ visudo 以授予 admin 这个用户 sudo 权限为例子，添加如下内容。
 admin ALL=(ALL) ALL 添加配置文件到/etc/sudoers.d/目录中 这个是系统文档推荐的做法。/etc/sudoers.d/ 目录中的文件相当于是 /etc/sudoers 文件的补充。如果你写的配置文件有问题或者是想去除用户的 sudo 权限，直接删除文件即可，不用去修改 /etc/sudoers 文件，不会影响到系统默认配置。...</p>
   </div>
   <footer class="entry-footer"><span title='2024-06-24 18:09:16 +0800 CST'>June 24, 2024</span></footer>
-  <a class="entry-link" aria-label="post link to Linux" href="https://ceigt.github.io/posts/linux/"></a>
+  <a class="entry-link" aria-label="post link to Linux" href="http://blog.openet.top/posts/linux/"></a>
 </article>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2024 <a href="https://ceigt.github.io/">Note&amp;Blog</a></span> · 
+        <span>&copy; 2024 <a href="http://blog.openet.top/">Note&amp;Blog</a></span> · 
 
     <span>
         Powered by

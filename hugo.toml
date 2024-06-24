@@ -1,4 +1,4 @@
-baseURL = 'https://ceigt.github.io/'
+baseURL = 'http://blog.openet.top/'
 languageCode = 'en-us'
 title = 'Note&Blog'
 theme = 'PaperMod'
